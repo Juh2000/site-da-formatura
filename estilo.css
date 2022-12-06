@@ -77,10 +77,6 @@ footer{
 .menu{
     position: fixed;
     background-color: #4c30c9;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 4.5rem;
     width: 100%;
     margin-top: -130px;
 }
@@ -88,7 +84,7 @@ footer{
 li{
    display: inline;
    text-decoration: none;
-   padding: 102px;
+   padding: 50px;
 }
 
 a{
@@ -99,6 +95,12 @@ a{
 
 html {
     scroll-behavior: smooth;
+  }
+  .lista{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
   }
 
 
